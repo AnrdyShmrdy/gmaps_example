@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gmaps_example/CodeLabsGmapsFlutterPage.dart';
 import 'package:gmaps_example/G4G_GmapsPage.dart';
 import 'package:gmaps_example/Maxonflutter_main.dart';
+import 'package:gmaps_example/fernandoptrr_location_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.green,
       ),
       // First screen of our app
-      home: Maxonflutter_main(),
+      home: fernandoptrr_location_page(),
     );
   }
 }
